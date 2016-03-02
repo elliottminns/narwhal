@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F19FD431C8077DB00A3F009 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19FD421C8077DB00A3F009 /* main.swift */; };
+		4F19FD561C80787100A3F009 /* Narwhal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F19FD551C80787100A3F009 /* Narwhal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F19FD5D1C80787200A3F009 /* Narwhal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F19FD531C80787100A3F009 /* Narwhal.framework */; };
+		4F19FD621C80787200A3F009 /* NarwhalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19FD611C80787200A3F009 /* NarwhalTests.swift */; };
+		4F19FD6A1C8078F900A3F009 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19FD4D1C80785800A3F009 /* Socket.swift */; };
+		4F19FD6B1C8078FB00A3F009 /* Narwhal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19FD4B1C80785800A3F009 /* Narwhal.swift */; };
+		4F19FD6C1C8078FB00A3F009 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19FD4C1C80785800A3F009 /* Request.swift */; };
+		4F19FD6F1C80791200A3F009 /* Narwhal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F19FD531C80787100A3F009 /* Narwhal.framework */; };
+		4F19FD721C807BBC00A3F009 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19FD701C807BA000A3F009 /* URL.swift */; };
+		4F19FD751C807BD400A3F009 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19FD731C807BCF00A3F009 /* String.swift */; };
+		4F19FDAB1C80982C00A3F009 /* Ocean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F19FDA51C80980500A3F009 /* Ocean.framework */; };
+		4F19FDBC1C80984500A3F009 /* Echo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F19FDB51C80983B00A3F009 /* Echo.framework */; };
+		4F19FDBE1C80985E00A3F009 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19FDBD1C80985E00A3F009 /* Response.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F19FD5E1C80787200A3F009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F19FD371C8077DB00A3F009 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F19FD521C80787100A3F009;
+			remoteInfo = Narwhal;
+		};
+		4F19FD6D1C80790F00A3F009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F19FD371C8077DB00A3F009 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F19FD521C80787100A3F009;
+			remoteInfo = Narwhal;
+		};
+		4F19FDA41C80980500A3F009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F19FD9F1C80980500A3F009 /* Ocean.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F19FD821C8097D700A3F009;
+			remoteInfo = Ocean;
+		};
+		4F19FDA61C80980500A3F009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F19FD9F1C80980500A3F009 /* Ocean.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F19FD8C1C8097D700A3F009;
+			remoteInfo = OceanTests;
+		};
+		4F19FDAC1C80982E00A3F009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F19FD9F1C80980500A3F009 /* Ocean.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F19FD811C8097D700A3F009;
+			remoteInfo = Ocean;
+		};
+		4F19FDB41C80983B00A3F009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F19FDAE1C80983B00A3F009 /* Echo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F59CFC71C6E460E008D87E6;
+			remoteInfo = Echo;
+		};
+		4F19FDB61C80983B00A3F009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F19FDAE1C80983B00A3F009 /* Echo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F59CFD11C6E460E008D87E6;
+			remoteInfo = EchoTests;
+		};
+		4F19FDB81C80983B00A3F009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F19FDAE1C80983B00A3F009 /* Echo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F59CFEC1C6E462E008D87E6;
+			remoteInfo = "Echo-Example";
+		};
+		4F19FDBA1C80984300A3F009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F19FDAE1C80983B00A3F009 /* Echo.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F59CFC61C6E460E008D87E6;
+			remoteInfo = Echo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F19FD3D1C8077DB00A3F009 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F19FD3F1C8077DB00A3F009 /* Narwhal-Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Narwhal-Example"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F19FD421C8077DB00A3F009 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4F19FD4B1C80785800A3F009 /* Narwhal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Narwhal.swift; sourceTree = "<group>"; };
+		4F19FD4C1C80785800A3F009 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		4F19FD4D1C80785800A3F009 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		4F19FD531C80787100A3F009 /* Narwhal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Narwhal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F19FD551C80787100A3F009 /* Narwhal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Narwhal.h; sourceTree = "<group>"; };
+		4F19FD571C80787100A3F009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F19FD5C1C80787200A3F009 /* NarwhalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NarwhalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F19FD611C80787200A3F009 /* NarwhalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarwhalTests.swift; sourceTree = "<group>"; };
+		4F19FD631C80787200A3F009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F19FD701C807BA000A3F009 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		4F19FD731C807BCF00A3F009 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		4F19FD9F1C80980500A3F009 /* Ocean.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Ocean.xcodeproj; path = ../../../ocean/Xcode/Ocean/Ocean.xcodeproj; sourceTree = "<group>"; };
+		4F19FDAE1C80983B00A3F009 /* Echo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Echo.xcodeproj; path = ../../../echo/Xcode/Echo/Echo.xcodeproj; sourceTree = "<group>"; };
+		4F19FDBD1C80985E00A3F009 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F19FD3C1C8077DB00A3F009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F19FD6F1C80791200A3F009 /* Narwhal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F19FD4F1C80787100A3F009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F19FDBC1C80984500A3F009 /* Echo.framework in Frameworks */,
+				4F19FDAB1C80982C00A3F009 /* Ocean.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F19FD591C80787200A3F009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F19FD5D1C80787200A3F009 /* Narwhal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F19FD361C8077DB00A3F009 = {
+			isa = PBXGroup;
+			children = (
+				4F19FDAE1C80983B00A3F009 /* Echo.xcodeproj */,
+				4F19FD9F1C80980500A3F009 /* Ocean.xcodeproj */,
+				4F19FD491C80785800A3F009 /* Sources */,
+				4F19FD411C8077DB00A3F009 /* Narwhal-Example */,
+				4F19FD541C80787100A3F009 /* Narwhal */,
+				4F19FD601C80787200A3F009 /* NarwhalTests */,
+				4F19FD401C8077DB00A3F009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F19FD401C8077DB00A3F009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F19FD3F1C8077DB00A3F009 /* Narwhal-Example */,
+				4F19FD531C80787100A3F009 /* Narwhal.framework */,
+				4F19FD5C1C80787200A3F009 /* NarwhalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F19FD411C8077DB00A3F009 /* Narwhal-Example */ = {
+			isa = PBXGroup;
+			children = (
+				4F19FD421C8077DB00A3F009 /* main.swift */,
+			);
+			name = "Narwhal-Example";
+			path = Narwhal;
+			sourceTree = "<group>";
+		};
+		4F19FD491C80785800A3F009 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4F19FD4B1C80785800A3F009 /* Narwhal.swift */,
+				4F19FD4C1C80785800A3F009 /* Request.swift */,
+				4F19FD4D1C80785800A3F009 /* Socket.swift */,
+				4F19FD701C807BA000A3F009 /* URL.swift */,
+				4F19FD731C807BCF00A3F009 /* String.swift */,
+				4F19FDBD1C80985E00A3F009 /* Response.swift */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+		4F19FD541C80787100A3F009 /* Narwhal */ = {
+			isa = PBXGroup;
+			children = (
+				4F19FD551C80787100A3F009 /* Narwhal.h */,
+				4F19FD571C80787100A3F009 /* Info.plist */,
+			);
+			path = Narwhal;
+			sourceTree = "<group>";
+		};
+		4F19FD601C80787200A3F009 /* NarwhalTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F19FD611C80787200A3F009 /* NarwhalTests.swift */,
+				4F19FD631C80787200A3F009 /* Info.plist */,
+			);
+			path = NarwhalTests;
+			sourceTree = "<group>";
+		};
+		4F19FDA01C80980500A3F009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F19FDA51C80980500A3F009 /* Ocean.framework */,
+				4F19FDA71C80980500A3F009 /* OceanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F19FDAF1C80983B00A3F009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F19FDB51C80983B00A3F009 /* Echo.framework */,
+				4F19FDB71C80983B00A3F009 /* EchoTests.xctest */,
+				4F19FDB91C80983B00A3F009 /* Echo-Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F19FD501C80787100A3F009 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F19FD561C80787100A3F009 /* Narwhal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F19FD3E1C8077DB00A3F009 /* Narwhal-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F19FD461C8077DB00A3F009 /* Build configuration list for PBXNativeTarget "Narwhal-Example" */;
+			buildPhases = (
+				4F19FD3B1C8077DB00A3F009 /* Sources */,
+				4F19FD3C1C8077DB00A3F009 /* Frameworks */,
+				4F19FD3D1C8077DB00A3F009 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F19FD6E1C80790F00A3F009 /* PBXTargetDependency */,
+			);
+			name = "Narwhal-Example";
+			productName = Narwhal;
+			productReference = 4F19FD3F1C8077DB00A3F009 /* Narwhal-Example */;
+			productType = "com.apple.product-type.tool";
+		};
+		4F19FD521C80787100A3F009 /* Narwhal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F19FD641C80787200A3F009 /* Build configuration list for PBXNativeTarget "Narwhal" */;
+			buildPhases = (
+				4F19FD4E1C80787100A3F009 /* Sources */,
+				4F19FD4F1C80787100A3F009 /* Frameworks */,
+				4F19FD501C80787100A3F009 /* Headers */,
+				4F19FD511C80787100A3F009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F19FDBB1C80984300A3F009 /* PBXTargetDependency */,
+				4F19FDAD1C80982E00A3F009 /* PBXTargetDependency */,
+			);
+			name = Narwhal;
+			productName = Narwhal;
+			productReference = 4F19FD531C80787100A3F009 /* Narwhal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F19FD5B1C80787200A3F009 /* NarwhalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F19FD671C80787200A3F009 /* Build configuration list for PBXNativeTarget "NarwhalTests" */;
+			buildPhases = (
+				4F19FD581C80787200A3F009 /* Sources */,
+				4F19FD591C80787200A3F009 /* Frameworks */,
+				4F19FD5A1C80787200A3F009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F19FD5F1C80787200A3F009 /* PBXTargetDependency */,
+			);
+			name = NarwhalTests;
+			productName = NarwhalTests;
+			productReference = 4F19FD5C1C80787200A3F009 /* NarwhalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F19FD371C8077DB00A3F009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Elliott Minns";
+				TargetAttributes = {
+					4F19FD3E1C8077DB00A3F009 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4F19FD521C80787100A3F009 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4F19FD5B1C80787200A3F009 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F19FD3A1C8077DB00A3F009 /* Build configuration list for PBXProject "Narwhal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F19FD361C8077DB00A3F009;
+			productRefGroup = 4F19FD401C8077DB00A3F009 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4F19FDAF1C80983B00A3F009 /* Products */;
+					ProjectRef = 4F19FDAE1C80983B00A3F009 /* Echo.xcodeproj */;
+				},
+				{
+					ProductGroup = 4F19FDA01C80980500A3F009 /* Products */;
+					ProjectRef = 4F19FD9F1C80980500A3F009 /* Ocean.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4F19FD3E1C8077DB00A3F009 /* Narwhal-Example */,
+				4F19FD521C80787100A3F009 /* Narwhal */,
+				4F19FD5B1C80787200A3F009 /* NarwhalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4F19FDA51C80980500A3F009 /* Ocean.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Ocean.framework;
+			remoteRef = 4F19FDA41C80980500A3F009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F19FDA71C80980500A3F009 /* OceanTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OceanTests.xctest;
+			remoteRef = 4F19FDA61C80980500A3F009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F19FDB51C80983B00A3F009 /* Echo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Echo.framework;
+			remoteRef = 4F19FDB41C80983B00A3F009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F19FDB71C80983B00A3F009 /* EchoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EchoTests.xctest;
+			remoteRef = 4F19FDB61C80983B00A3F009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F19FDB91C80983B00A3F009 /* Echo-Example */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Echo-Example";
+			remoteRef = 4F19FDB81C80983B00A3F009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F19FD511C80787100A3F009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F19FD5A1C80787200A3F009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F19FD3B1C8077DB00A3F009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F19FD431C8077DB00A3F009 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F19FD4E1C80787100A3F009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F19FD6A1C8078F900A3F009 /* Socket.swift in Sources */,
+				4F19FD6C1C8078FB00A3F009 /* Request.swift in Sources */,
+				4F19FD751C807BD400A3F009 /* String.swift in Sources */,
+				4F19FD6B1C8078FB00A3F009 /* Narwhal.swift in Sources */,
+				4F19FDBE1C80985E00A3F009 /* Response.swift in Sources */,
+				4F19FD721C807BBC00A3F009 /* URL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F19FD581C80787200A3F009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F19FD621C80787200A3F009 /* NarwhalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F19FD5F1C80787200A3F009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F19FD521C80787100A3F009 /* Narwhal */;
+			targetProxy = 4F19FD5E1C80787200A3F009 /* PBXContainerItemProxy */;
+		};
+		4F19FD6E1C80790F00A3F009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F19FD521C80787100A3F009 /* Narwhal */;
+			targetProxy = 4F19FD6D1C80790F00A3F009 /* PBXContainerItemProxy */;
+		};
+		4F19FDAD1C80982E00A3F009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ocean;
+			targetProxy = 4F19FDAC1C80982E00A3F009 /* PBXContainerItemProxy */;
+		};
+		4F19FDBB1C80984300A3F009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Echo;
+			targetProxy = 4F19FDBA1C80984300A3F009 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F19FD441C8077DB00A3F009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F19FD451C8077DB00A3F009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F19FD471C8077DB00A3F009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F19FD481C8077DB00A3F009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F19FD651C80787200A3F009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Narwhal/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliottminns.Narwhal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F19FD661C80787200A3F009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Narwhal/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliottminns.Narwhal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F19FD681C80787200A3F009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NarwhalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliottminns.NarwhalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F19FD691C80787200A3F009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NarwhalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliottminns.NarwhalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F19FD3A1C8077DB00A3F009 /* Build configuration list for PBXProject "Narwhal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F19FD441C8077DB00A3F009 /* Debug */,
+				4F19FD451C8077DB00A3F009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F19FD461C8077DB00A3F009 /* Build configuration list for PBXNativeTarget "Narwhal-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F19FD471C8077DB00A3F009 /* Debug */,
+				4F19FD481C8077DB00A3F009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F19FD641C80787200A3F009 /* Build configuration list for PBXNativeTarget "Narwhal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F19FD651C80787200A3F009 /* Debug */,
+				4F19FD661C80787200A3F009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F19FD671C80787200A3F009 /* Build configuration list for PBXNativeTarget "NarwhalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F19FD681C80787200A3F009 /* Debug */,
+				4F19FD691C80787200A3F009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F19FD371C8077DB00A3F009 /* Project object */;
+}

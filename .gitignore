@@ -1,0 +1,11 @@
+Packages
+.build
+Sources/main.swift
+Public
+Resources
+.DS_Store
+Carthage/
+Xcode/Narwhal/Narwhal.xcodeproj/project.xcworkspace/xcuserdata/
+Xcode/Narwhal/Narwhal.xcodeproj/project.xcworkspace/xcshareddata/
+Xcode/Narwhal/Narwhal.xcodeproj/xcuserdata/
+*.swp
